@@ -28,6 +28,11 @@ function test_getSmartSort()
     ['Tatooine', 'Chendoo', 'org', 'Eccel']
   ];
   
+  
+  var result = getSmartSort(data);
+  
+  Logger.log(result);
+  
   /*
   
   result: sort in place
@@ -58,10 +63,6 @@ function test_getSmartSort()
   
   */
 
-
-  var result = getSmartSort(data);
-  
-  Logger.log(result);
 
 }
 
