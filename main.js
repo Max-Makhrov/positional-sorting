@@ -27,6 +27,36 @@ function test_getSmartSort()
     ['Venus', 'Yoo', 'Van', 'Derzar'],
     ['Tatooine', 'Chendoo', 'org', 'Eccel']
   ];
+  
+  /*
+  
+  result: sort in place
+  
+   [ [Earth, Europe, Britain, London], 
+     [Earth, Europe, Britain, Manchester], 
+     [Earth, Europe, Britain, Liverpool], 
+     [Earth, Europe, France, Paris], 
+     [Earth, Europe, France, Lion], 
+     [Earth, Europe, Italy, Rome], 
+     [Earth, Europe, Italy, Milan], 
+     [Earth, Europe, Greece, Athenes], 
+     [Earth, Asia, China, Pekin], 
+     [Earth, Africa, Algeria, Algiers], 
+     [Earth, America, USA, Dallas], 
+     [Earth, America, USA, New York], 
+     [Earth, America, USA, Chicago], 
+     [Earth, America, USA, San Francisco], 
+     [Tatooine, Yulab, Putesh, ASU], 
+     [Tatooine, Yulab, Putesh, Niatirb], 
+     [Tatooine, Yulab, Zalip, Duantan], 
+     [Tatooine, Yulab, Koko, Traiwau], 
+     [Tatooine, Asia, Solo, Lion], 
+     [Tatooine, Asia, Solo, To], 
+     [Tatooine, Chendoo, org, Eccel], 
+     [Venus, Yoo, Van, Derzar]
+   ]
+  
+  */
 
 
   var result = getSmartSort(data);
